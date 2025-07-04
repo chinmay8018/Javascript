@@ -1,0 +1,10 @@
+{
+  "name": "Chinmay",
+  "age": 23,
+  "isStudent": true,
+  "skills": ["JavaScript", "Java", "MongoDB"],
+  "address": {
+    "city": "Bhubaneswar",
+    "state": "Odisha"
+  }
+}
