@@ -1,0 +1,40 @@
+<!-- <script>
+    //"use strict"
+    //function x(){
+
+    
+    console.log(this);
+    //}
+ //x();
+ //window.x();
+
+
+ const obj={
+    a:10,
+    x:function(){
+        console.log(this);
+    }
+ }
+ obj.x();
+
+
+
+
+
+</script> -->
+
+<script>
+
+    const obj={
+        a:10,
+        x:function(){
+            const y =() =>{
+                console.log(this);
+
+            }
+            y();
+
+        }
+    }
+    obj.x();
+</script>
